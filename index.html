@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="parent">
+      <div id="child1">
+        <input id="display"/>
+      </div>
+      <div id="child2">
+        <button style="color: white; background-color: orange;" id="btn" onclick="clearHandler()">AC</button>
+        <button id="btn" onclick="numberHandler('7')">7</button>
+        <button id="btn" onclick="numberHandler('8')">8</button>
+        <button id="btn" onclick="numberHandler('9')">9</button>
+        <button style="color: white; background-color: orange" id="btn"onclick="numberHandler('/')">÷</button>
+        <button id="btn" onclick="numberHandler('4')">4</button>
+        <button id="btn" onclick="numberHandler('5')">5</button>
+        <button id="btn" onclick="numberHandler('6')">6</button>
+        <button style="color: white; background-color: orange" id="btn" onclick="numberHandler('*')">*</button>
+        <button id="btn" onclick="numberHandler('1')">1</button>
+        <button id="btn" onclick="numberHandler('2')">2</button>
+        <button id="btn" onclick="numberHandler('3')">3</button>
+        <button style="color: white; background-color: orange" id="btn" onclick="numberHandler('+')">+</button>
+        <button id="btn" style="width: 130px" onclick="numberHandler('0')">0</button>
+        <button id="btn" onclick="numberHandler('.')">.</button>
+        <button style="color: white; background-color: orange" id="btn" onclick="numberHandler('-')">-</button>
+        <button style="color: white; background-color: orange" id="btn" onclick="equalHandler()">%</button>
+        <button style="color: white; background-color: orange; width: 130px;" id="btn" onclick="equalHandler()">=</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
